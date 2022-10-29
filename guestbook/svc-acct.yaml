@@ -3,3 +3,7 @@ kind: ServiceAccount
 metadata:
   name: sa-guestbook
   namespace: default
+  labels:
+    app: guestbook
+    component: svc-acct
+
